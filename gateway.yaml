@@ -8,6 +8,10 @@ spring:
     inetutils:
       ignoredInterfaces:
         - docker
+        - eth.*
+        - lo
+      preferredNetworks:
+        - 10.0.0
     gateway:
       discovery:
         locator:
