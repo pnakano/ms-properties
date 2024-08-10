@@ -12,5 +12,7 @@ spring:
           lower-case-service-id: true
 
 eureka:
+  instance:
+    prefer-ip-address: true
   client:
     service-url: http://localhost:8761/eureka**
