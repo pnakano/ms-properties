@@ -5,13 +5,6 @@ spring:
   application:
     name: gateway
   cloud:
-    inetutils:
-      ignoredInterfaces:
-        - docker
-        - eth.*
-        - lo
-      preferredNetworks:
-        - 10.0.0
     gateway:
       discovery:
         locator:
