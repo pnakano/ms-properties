@@ -5,6 +5,9 @@ spring:
   application:
     name: gateway
   cloud:
+    inetutils:
+      ignoredInterfaces:
+        - docker
     gateway:
       discovery:
         locator:
