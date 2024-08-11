@@ -1,3 +1,4 @@
+# CONFIGURACOES: ms-gateway
 server:
   port: 8000
 
