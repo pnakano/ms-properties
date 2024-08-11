@@ -7,15 +7,6 @@ spring:
   cloud:
     gateway:
       discovery:
-        enabled: true
-        lower-case-service-id: true
         locator:
           enabled: true
           lower-case-service-id: true
-
-eureka:
-  instance:
-    hostname: localhost
-    prefer-ip-address: true
-  client:
-    service-url: ${EUREKA_URL:http://localhost:8761/eureka/}
