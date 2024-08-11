@@ -1,6 +1,5 @@
 server:
   port: 8000
-  host: localhost
 
 spring:
   application:
@@ -11,3 +10,6 @@ spring:
         locator:
           enabled: true
           lower-case-service-id: true
+      routes:
+        - id: produto
+          uri: localhost:8080
